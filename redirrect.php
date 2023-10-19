@@ -2,7 +2,7 @@
 session_start();
 $google_client_id = "132686350965-o3qg2f3oedc2v0ajhf1oq0p8dnh4b0t2.apps.googleusercontent.com";
 $google_client_secret = "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";
-$redirect_url = "http://muaadh99.github.io/redirect.php";
+$redirect_url = "https://muaadh99.github.io/CS3400-CyberSecurity_Project/redirrect.php";
 
 if(isset($_GET['code'])) {
     $code = $_GET['code'];
